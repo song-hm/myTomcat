@@ -5,6 +5,12 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.*;
 
+/**
+ * tomcat版本2
+ * 实现服务端的准备工作
+ * 实现启动服务器读取配置文件的代码
+ * 向客户端发送动态资源代码实现
+ */
 public class MyServer {
     //定义一个变量，存放WebContent目录的绝对路径
     public static String WEB_ROOT = System.getProperty("user.dir")+"\\"+"WebContent";

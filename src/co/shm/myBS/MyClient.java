@@ -4,6 +4,9 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 
+/**
+ * 模拟浏览器获取服务端资源
+ */
 public class MyClient {
     public static void main(String[] args) throws Exception {
         Socket socket = null;
